@@ -1,0 +1,52 @@
+{
+  "users": [],
+  "history": [],
+  "favorites": [],
+  "dictionary": {
+    "hello": {
+      "word": "hello",
+      "phonetic": "/həˈloʊ/",
+      "meanings": [
+        {
+          "partOfSpeech": "exclamation",
+          "definitions": [
+            {
+              "definition": "Used as a greeting or to begin a phone conversation.",
+              "example": "Hello, how are you today?"
+            }
+          ]
+        }
+      ]
+    },
+    "bonjour": {
+      "word": "bonjour",
+      "phonetic": "/bɔ̃.ʒuʁ/",
+      "meanings": [
+        {
+          "partOfSpeech": "nom masculin",
+          "definitions": [
+            {
+              "definition": "Formule de salutation employée le jour.",
+              "example": "Dis bonjour à tes amis."
+            }
+          ]
+        }
+      ]
+    },
+    "مرحبا": {
+      "word": "مرحبا",
+      "phonetic": "/mar-ha-ban/",
+      "meanings": [
+        {
+          "partOfSpeech": "تحية",
+          "definitions": [
+            {
+              "definition": "كلمة ترحيب بالضيف أو الصديق",
+              "example": "مرحباً بك في تطبيق الترجمة"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
