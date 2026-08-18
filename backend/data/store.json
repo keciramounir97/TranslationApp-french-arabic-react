@@ -1,6 +1,55 @@
 {
-  "users": [],
-  "history": [],
+  "users": [
+    {
+      "id": "usr_1787085020950_ou2o",
+      "name": "Mounir",
+      "email": "keciramounir89@gmail.com",
+      "password": "$2a$10$jg3uRdB9784HePa/DJu//O8UklGHzF.fO2Ln/5xY6fhGQEHEfphSy",
+      "createdAt": "2026-08-18T20:30:20.950Z"
+    }
+  ],
+  "history": [
+    {
+      "id": "hist_1787084933316_i27f",
+      "userId": "guest",
+      "sourceText": "Bonjour",
+      "translatedText": "Günaydın",
+      "from": "fr",
+      "to": "tr",
+      "detectedLanguage": "fr",
+      "timestamp": "2026-08-18T20:28:53.316Z"
+    },
+    {
+      "id": "hist_1787084931537_ew8c",
+      "userId": "guest",
+      "sourceText": "Merhaba",
+      "translatedText": "Bonjour",
+      "from": "tr",
+      "to": "fr",
+      "detectedLanguage": "tr",
+      "timestamp": "2026-08-18T20:28:51.537Z"
+    },
+    {
+      "id": "hist_1787084906006_nfo8",
+      "userId": "guest",
+      "sourceText": "Merhaba",
+      "translatedText": "Bonjour",
+      "from": "tr",
+      "to": "fr",
+      "detectedLanguage": "tr",
+      "timestamp": "2026-08-18T20:28:26.006Z"
+    },
+    {
+      "id": "hist_1787084897332_1g8t",
+      "userId": "guest",
+      "sourceText": "hello",
+      "translatedText": "Merhaba",
+      "from": "fr",
+      "to": "tr",
+      "detectedLanguage": "fr",
+      "timestamp": "2026-08-18T20:28:17.332Z"
+    }
+  ],
   "favorites": [],
   "dictionary": {
     "hello": {

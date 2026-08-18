@@ -82,7 +82,17 @@ export const login = async (req, res) => {
 export const getMe = (req, res) => {
   try {
     const db = readDb();
-    const user = db.users.find(u => u.id === req.user.id);
+    let user = db.users.find(u => u.id === req.user?.id || (u.email && req.user?.email && u.email.toLowerCase() === req.user.email.toLowerCase()));
+
+    // Fallback si l'instance serverless n'a pas encore synchronisé le fichier store.json
+    if (!user && req.user && (req.user.id || req.user.email)) {
+      user = {
+        id: req.user.id || 'usr_guest',
+        name: req.user.name || 'Utilisateur',
+        email: req.user.email || '',
+        createdAt: new Date().toISOString()
+      };
+    }
 
     if (!user) {
       return res.status(404).json({ message: 'Utilisateur non trouvé.' });
